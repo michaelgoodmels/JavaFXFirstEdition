@@ -5,10 +5,10 @@ import javafx.scene.control.Label;
 
 public class JavaFXFirstEditionController {
     @FXML
-    private Label welcomeText;
+    private Label SecretText01;
 
     @FXML
     protected void onSecret01() {
-        welcomeText.setText("I'm a Sworbler");
+        SecretText01.setText("I'm a Sworbler");
     }
 }
