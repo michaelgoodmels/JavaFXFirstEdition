@@ -13,8 +13,9 @@
     <Button onAction="#onSecret02" text="Michael's Secret 02" />
     <Button onAction="#onSecret03" text="Michael's Secret 03" />
 
+    <!-- Label -->
     <Label fx:id="SecretText01" layoutX="50" layoutY="100" />
-    <Label fx:id="SecretText02" layoutX="50" layoutY="150" />  <!-- Neues Label -->
+    <Label fx:id="SecretText02" layoutX="50" layoutY="150" />
 
 </VBox>
 
