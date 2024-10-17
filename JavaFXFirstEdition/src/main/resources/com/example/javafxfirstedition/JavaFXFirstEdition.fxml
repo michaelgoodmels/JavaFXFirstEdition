@@ -9,9 +9,9 @@
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
-
-  <Label fx:id="SecretText01" />
     <Button onAction="#onSecret01" text="Michael's Secret 01" />
-    <Button onAction="#onSecret01" text="Michael's Secret 02" />
-    <Button onAction="#onSecret01" text="Michael's Secret 03" />
+    <Button onAction="#onSecret02" text="Michael's Secret 02" />
+    <Button onAction="#onSecret03" text="Michael's Secret 03" />
+
+    <Label fx:id="SecretText01" />
 </VBox>
